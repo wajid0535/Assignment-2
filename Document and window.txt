@@ -1,0 +1,66 @@
+Differences between Document and Window Objects:
+
+Document Object:
+
+1) Document object:The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page.
+
+Syntax:
+document.property_name;
+
+
+Some Properties of document:
+1)body: It returns the contents of the body element.
+2)cookie: It returns the cookie of the current document.
+3)charSet: It returns a string, representing the document’s character encoding.
+4)domain: It returns the domain name of the document server.
+5)URL: It returns the complete URL of the document.
+6)title: It returns the title element of the document.
+7)head: It returns the head element of the document.
+
+
+Some Methods of Document:
+1)addEventListener(): It is used to attach an event handler to the specified element.
+2)createElement(): It is used to create HTML element .
+3)createEvent(): It is used to create a new events object.
+
+
+
+Window Object:
+
+2)Window Object: The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Syntax:
+window.property_name;
+
+
+Some Properties of the window:
+ 1).closed: It holds a Boolean value that represents whether the window is closed or not.
+ 2).console: It returns a reference to the console object which provides access to the browser’s debugging console.
+ 3).controllers: It returns the XUL controller objects for the current Chrome window.
+ 3).customElements: It returns a reference to the CustomElementRegistry object, which can be used to register new custom elements and also get information about      already registered custom elements.
+ 4)Document: It returns a reference to the document object of that window.
+ 5)History: It provides information on the URLs visited in the current window.
+ 6)Length: It represents the number of frames in the current window.
+ 7)fullScreen: This property indicates whether the window is displayed on full screen or not.
+ 8)Location: It contains the URL of the current window.
+ 9)Name: It contains the name of the referenced window.
+ 10)Window: It returns the current window or frame.
+ 11)Navigator: It returns a reference to the navigator object.
+ 12)outerHeight: It will get the height of the outside of the browser window.
+ 13)outerWidth: It will get the width of the outside of the browser window.
+ 14)Status: It overrides the default status and places a message in the status bar.
+ 15)Top: It returns a reference to the topmost window containing a frame if many windows are opened.
+ 16)Toolbar: It will result in the toolbar object, whose visibility can be toggled in the window.
+ 17)Parent: It refers to the frameset in which the current frame is contained.
+ 18)Screen: It refers to the screen object
+
+Some Methods of Window:
+Syntax:
+window.method_name;
+
+
+1)alert(): It is used to display an alert box. It displays a specified message along with an OK button and is generally used to make sure that the information comes  through the user.
+2)clearInterval(): It clears the interval which has been set by the setInterval() function before that.
+3)clearTimeout(): It clears the timeout which has been set by the setTimeout()function before that.
+4) close(): It is used for closing a certain window or tab of the browser which was previously opened.
+5) confirm(): It is used to display a modal dialog with an optional message and two buttons i.e. OK and Cancel. It returns true if the user clicks “OK”, and false  otherwise.
